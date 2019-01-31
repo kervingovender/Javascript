@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>javascript_lessons</id>
+        <internal>false</internal>
+        <link/>
+        <name>Javascript Lessons</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-31 04:04:07</sys_created_on>
+        <sys_id>711dcb8e37532300c93fded993990ea5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Javascript Lessons</sys_name>
+        <sys_package display_value="General Coding Lessons" source="x_310793_general_c">a0dc838e37532300c93fded993990eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="General Coding Lessons">a0dc838e37532300c93fded993990eba</sys_scope>
+        <sys_update_name>sp_widget_711dcb8e37532300c93fded993990ea5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 04:43:33</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+    <script type="text/javascript">
+      // var firstBool = true;
+      /* 
+      var secondBool = false;
+      var firstString = "This is a string";
+      var secondString = 'And so is this';
+      */
+    </script>
+
+    <script type="text/javascript">
+      //Debugging
+      /*
+      console.log("Hello");
+      console.log("This is a statement");
+      console.log("This is also a statement");
+      */
+
+      //Intro to functions
+      /*
+      function myFunc() {
+        console.log("myFunc says this is a statement too");
+      };
+      myFunc();
+      */
+
+
+      /*function myFunc2(name, weather) {
+        console.log("Hello " + name + ".");
+        console.log("It is " + weather + " today");
+      };
+      myFunc2("Adam", "sunny");
+      myFunc2("John", "sunny");
+  
+		function myFunc3(name) {
+        return ("Hello " + name + ".");
+      };
+      console.log(myFunc3("Adam"));
+*/
+
+    </script>
+
+  </head>
+
+  <body>
+
+  </body>
+</html>]]></template>
+    </sp_widget>
+</record_update>
