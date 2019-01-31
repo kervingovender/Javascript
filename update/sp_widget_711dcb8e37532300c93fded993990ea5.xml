@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-31 04:04:07</sys_created_on>
         <sys_id>711dcb8e37532300c93fded993990ea5</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Javascript Lessons</sys_name>
         <sys_package display_value="General Coding Lessons" source="x_310793_general_c">a0dc838e37532300c93fded993990eba</sys_package>
         <sys_policy/>
         <sys_scope display_value="General Coding Lessons">a0dc838e37532300c93fded993990eba</sys_scope>
         <sys_update_name>sp_widget_711dcb8e37532300c93fded993990ea5</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-31 04:43:33</sys_updated_on>
+        <sys_updated_by>wave.inguane</sys_updated_by>
+        <sys_updated_on>2019-01-31 04:56:38</sys_updated_on>
         <template><![CDATA[<!DOCTYPE html>
 <html>
   <head>
@@ -67,13 +67,34 @@
       };
       myFunc2("Adam", "sunny");
       myFunc2("John", "sunny");
-  
+
 		function myFunc3(name) {
         return ("Hello " + name + ".");
       };
       console.log(myFunc3("Adam"));
 */
 
+    </script>
+
+    <script type="text/javascript">
+      /*
+      var myGlobalVar = "apples";
+
+      function myFunc(name) {
+        var myLocalVar = "sunny";
+        return ("Hello " + name + ". Today is " + myLocalVar + ".");
+      };
+      console.log(myFunc("Adam"));
+      */
+    </script>
+
+    
+    <script type="text/javascript">
+      /*
+      console.log(angular.isString("Hello") + " " + angular.isArray(23));
+      console.log("I am " + angular.uppercase("shouting"));
+      console.log("I am " + angular.lowercase("WhiSpeRing"));
+      */
     </script>
 
   </head>
